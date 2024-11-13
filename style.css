@@ -1,45 +1,92 @@
+/* Allgemeine Stile */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f5f1; /* Leichtes Beige */
+    color: #2c2c2c; /* Dunkles Grau für Text */
 }
 
+/* Header */
 header {
-    background-color: #8b0000;
+    background-color: #c79d9d; /* Rosaton */
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    background-color: #333;
+    margin: 0;
     display: flex;
     justify-content: center;
+    background-color: #2c2c2c; /* Schwarz */
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #f9f5f1; /* Leichtes Beige */
     text-decoration: none;
+    font-weight: bold;
 }
 
 section {
-    padding: 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #8b4a4a; /* Dunkler Rosaton */
+}
+
+/* Speisekarten */
+.menu-section {
+    margin: 40px 0;
+}
+
+.menu-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-images img {
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.menu-images img:hover {
+    transform: scale(1.05);
+}
+
+/* Galerie */
+#gallery img {
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #2c2c2c; /* Schwarz */
+    color: #f9f5f1; /* Leichtes Beige */
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 20px;
 }
