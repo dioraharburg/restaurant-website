@@ -14,7 +14,7 @@ header {
     text-align: center;
     padding: 40px 20px;
     font-family: 'Playfair Display', serif;
-    background-image: url('Banner.jpg'); /* Pfad zum Banner-Bild */
+    background-image: url('B1.jpg'); /* Pfad zum Banner-Bild */
     background-size: cover; /* Bild wird auf den gesamten Header-Bereich skaliert */
     background-position: center; /* Bild bleibt zentriert */
     height: 400px; /* Feste Höhe für den Header */
