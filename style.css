@@ -15,6 +15,47 @@ header {
     font-family: 'Playfair Display', serif;
 }
 
+/* Banner-Container */
+.header-banner {
+    position: relative; /* Ermöglicht die Positionierung des Bildes und Textes übereinander */
+    height: 400px; /* Höhe des Banners */
+    background-image: url('Banner.jpg'); /* Dein Restaurant-Bild */
+    background-size: cover; /* Bild wird auf die gesamte Fläche des Banners gedehnt */
+    background-position: center; /* Bild bleibt zentriert */
+    opacity: 0.8; /* Bild ist leicht transparent */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Optional: Ein leicht transparenter Overlay-Effekt */
+.header-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Dunkles Overlay, um den Text hervorzuheben */
+}
+
+/* Inhalt des Banners */
+.banner-content {
+    position: relative;
+    color: white; /* Weißer Text */
+    text-align: center;
+    z-index: 1; /* Text bleibt über dem Overlay */
+}
+
+.banner-content h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.banner-content p {
+    font-size: 1.5rem;
+}
+
 nav ul {
     display: flex;
     justify-content: center;
