@@ -8,48 +8,37 @@ body {
 
 /* Header */
 header {
-    position: relative; /* Ermöglicht Positionierung von Overlay und Text */
-    background-color: #c79d9d; /* Rosaton als Fallback für älteren Browser */
+    position: relative; /* Ermöglicht Positionierung des Textes und des Overlay */
+    background-color: #c79d9d; /* Rosaton als Fallback für den Hintergrund */
     color: #fff;
     text-align: center;
     padding: 40px 20px;
     font-family: 'Playfair Display', serif;
-    background-image: url('B1.jpg'); /* Pfad zum Banner-Bild */
-    background-size: cover; /* Bild wird auf den gesamten Header-Bereich skaliert */
-    background-position: center; /* Bild bleibt zentriert */
-    height: 400px; /* Feste Höhe für den Header */
-    opacity: 0.6; /* 60% Transparenz für den gesamten Header */
+    background-image: url('Banner 1.jpg'); /* Pfad zum Bild */
+    background-size: cover; /* Bild wird auf die gesamte Fläche des Headers skaliert */
+    background-position: center; /* Bild wird zentriert */
+    height: 400px; /* Feste Höhe des Banners */
+    z-index: 0; /* Setzt den Z-Index des Banners */
 }
 
 /* Text im Header */
 h1 {
-    font-size: 4rem; /* Größere Schriftgröße für den Titel */
+    font-size: 5rem; /* Größere Schriftgröße für den Titel */
     margin-bottom: 10px;
     z-index: 2; /* Text bleibt über dem Overlay */
-    position: relative; /* Ermöglicht die Platzierung des Textes über dem Overlay */
+    position: relative; /* Sicherstellen, dass der Text über dem Overlay liegt */
+    color: black; /* Textfarbe schwarz */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Schwarzer Textschatten für Umrandung */
+    font-weight: bold; /* Fettgedruckt für stärkeren Effekt */
 }
 
 p {
-    font-size: 1.5rem; /* Größere Schriftgröße für den Text */
+    font-size: 2rem; /* Größere Schriftgröße für den Text */
     z-index: 2; /* Text bleibt über dem Overlay */
     position: relative;
+    color: black; /* Textfarbe schwarz */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Schwarzer Textschatten für Umrandung */
 }
-
-
-/* Header */
-header {
-    background-color: #c79d9d; /* Rosaton */
-    color: #fff;
-    text-align: center;
-    padding: 40px 20px;
-    font-family: 'Playfair Display', serif;
-}
-
-h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
 nav ul {
     display: flex;
     justify-content: center;
