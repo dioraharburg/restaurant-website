@@ -23,7 +23,7 @@ header {
 
 /* Text im Header */
 h1 {
-    font-size: 5rem; /* Größere Schriftgröße für den Titel */
+    font-size: 7rem; /* Größere Schriftgröße für den Titel */
     margin-bottom: 10px;
     z-index: 2; /* Text bleibt über dem Overlay */
     position: relative; /* Sicherstellen, dass der Text über dem Overlay liegt */
@@ -33,7 +33,7 @@ h1 {
 }
 
 p {
-    font-size: 2rem; /* Größere Schriftgröße für den Text */
+    font-size: 4rem; /* Größere Schriftgröße für den Text */
     z-index: 2; /* Text bleibt über dem Overlay */
     position: relative;
     color: black; /* Textfarbe schwarz */
