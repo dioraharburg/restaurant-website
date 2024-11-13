@@ -1,12 +1,11 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diora Ristorant - Mediterrane Küche</title>
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400&display=swap">
-    <link rel="stylesheet" href="style.css">
-</head>
-
+/* Header */
+header {
+    background-color: #c79d9d; /* Rosaton */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Playfair Display', serif;
+}
 /* Allgemeine Stile */
 body {
     font-family: 'Open Sans', sans-serif;
