@@ -101,6 +101,45 @@ section {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Gemeinsamer Stil für alle Abschnitte */
+section {
+    background-color: #f7e2d0; /* Beige Hintergrundfarbe */
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #2a2a2a; /* Dunkles Grau für den Titel */
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #2a2a2a;
+    margin: 10px 0;
+}
+
+section strong {
+    font-weight: bold;
+    color: #d05356; /* Rosarote Farbe für bestimmte Texte */
+}
+
+/* Stil für den Über uns Abschnitt */
+.about-us {
+    background-color: #f7e2d0; /* Beige Hintergrundfarbe */
+}
+
+/* Stil für den Kontakt Abschnitt */
+.contact {
+    background-color: #f7e2d0; /* Beige Hintergrundfarbe */
+}
+
 .opening-hours h2 {
     font-size: 2rem;
     color: #2a2a2a; /* Dunkles Grau für den Titel */
