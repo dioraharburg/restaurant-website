@@ -1,3 +1,12 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diora Ristorant - Mediterrane Küche</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
 /* Allgemeine Stile */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -5,35 +14,7 @@ body {
     color: #2c2c2c;
     margin: 0;
     padding: 0;
-}
 
-/* Optional: Ein leicht transparenter Overlay-Effekt */
-.header-banner::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* Dunkles Overlay, um den Text hervorzuheben */
-}
-
-/* Inhalt des Banners */
-.banner-content {
-    position: relative;
-    color: white; /* Weißer Text */
-    text-align: center;
-    z-index: 1; /* Text bleibt über dem Overlay */
-}
-
-.banner-content h1 {
-    font-size: 3rem;
-    font-family: 'Playfair Display', serif;
-}
-
-.banner-content p {
-    font-size: 1.5rem;
-}
 
 nav ul {
     display: flex;
