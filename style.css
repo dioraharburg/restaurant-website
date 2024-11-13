@@ -7,27 +7,6 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #c79d9d; /* Rosaton */
-    color: #fff;
-    text-align: center;
-    padding: 40px 20px;
-    font-family: 'Playfair Display', serif;
-}
-
-/* Banner-Container */
-.header-banner {
-    position: relative; /* Ermöglicht die Positionierung des Bildes und Textes übereinander */
-    height: 400px; /* Höhe des Banners */
-    background-image: url('Banner.jpg'); /* Dein Restaurant-Bild */
-    background-size: cover; /* Bild wird auf die gesamte Fläche des Banners gedehnt */
-    background-position: center; /* Bild bleibt zentriert */
-    opacity: 0.8; /* Bild ist leicht transparent */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /* Optional: Ein leicht transparenter Overlay-Effekt */
 .header-banner::after {
     content: '';
