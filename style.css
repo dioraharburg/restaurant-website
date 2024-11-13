@@ -51,7 +51,7 @@ section {
 }
 
 .menu-images img, .gallery-images img {
-    width: 200px;
+    width: 300px;
     height: auto;
     border-radius: 10px;
     cursor: pointer;
