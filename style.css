@@ -39,6 +39,7 @@ p {
     color: black; /* Textfarbe schwarz */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Schwarzer Textschatten für Umrandung */
 }
+
 nav ul {
     display: flex;
     justify-content: center;
