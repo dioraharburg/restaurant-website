@@ -9,7 +9,6 @@ body {
 /* Header */
 header {
     position: relative;
-    background-color: #c79d9d; /* Rosaton als Fallback für den Hintergrund */
     text-align: center;
     padding: 40px 20px;
     font-family: 'Playfair Display', serif;
