@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f5f1; /* Leichtes Beige */
-    color: #2c2c2c; /* Dunkles Grau für Text */
+    color: #000; /* Dunkles Grau für Text */
 }
 
 /* Header */
