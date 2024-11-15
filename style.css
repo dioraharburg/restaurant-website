@@ -10,11 +10,10 @@ body {
 header {
     position: relative; /* Ermöglicht Positionierung des Textes und des Overlay */
     background-color: #c79d9d; /* Rosaton als Fallback für den Hintergrund */
-    color: #fff;
     text-align: center;
     padding: 40px 20px;
     font-family: 'Playfair Display', serif;
-    background-image: url('B1.jpg'); /* Pfad zum Bild */
+    background-image: url('Banner 1.jpg'); /* Pfad zum Bild */
     background-size: cover; /* Bild wird auf die gesamte Fläche des Headers skaliert */
     background-position: center; /* Bild wird zentriert */
     height: 400px; /* Feste Höhe des Banners */
@@ -27,13 +26,16 @@ h1 {
     margin-bottom: 10px;
     z-index: 2; /* Text bleibt über dem Overlay */
     position: relative; /* Sicherstellen, dass der Text über dem Overlay liegt */
+    color: #000; /* Schriftfarbe schwarz */
 }
 
 p {
     font-size: 1.5rem; /* Größere Schriftgröße für den Text */
     z-index: 2; /* Text bleibt über dem Overlay */
     position: relative;
+    color: #000; /* Schriftfarbe schwarz */
 }
+
 
 nav ul {
     display: flex;
