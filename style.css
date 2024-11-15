@@ -9,10 +9,11 @@ body {
 /* Header */
 header {
     position: relative;
+    background-color: #c79d9d; /* Rosaton als Fallback für den Hintergrund */
     text-align: center;
     padding: 40px 20px;
     font-family: 'Playfair Display', serif;
-    background-image: url('B1.jpg'); /* Pfad zum Bild */
+    background-image: url('Banner 1.jpg'); /* Pfad zum Bild */
     background-size: cover; /* Bild wird auf die gesamte Fläche des Headers skaliert */
     background-position: center; /* Bild wird zentriert */
     height: 400px; /* Feste Höhe des Banners */
