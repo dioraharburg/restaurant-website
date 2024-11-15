@@ -9,35 +9,35 @@ body {
 /* Header */
 header {
     position: relative;
-    background-color: #c79d9d; /* Rosaton als Fallback für den Hintergrund */
+    background-color: #c79d9d; /* Rosaton als Fallback */
     text-align: center;
     padding: 40px 20px;
     font-family: 'Playfair Display', serif;
-    background-image: url('B1.jpg'); /* Pfad zum Bild */
+    background-image: url('B1.jpg'); /* Korrekte URL für das Bild */
     background-size: cover; /* Bild wird auf die gesamte Fläche des Headers skaliert */
-    background-position: center; /* Bild wird zentriert */
-    height: 400px; /* Feste Höhe des Banners */
-    color: #000; /* Schriftfarbe schwarz */
+    background-position: center;
+    height: 400px;
+    color: #000; /* Schriftfarbe */
 }
 
-/* Text im Header */
+/* Text im Header mit Hintergrund */
+header h1, header p {
+    position: relative;
+    display: inline-block; /* Ermöglicht Padding und Hintergrund */
+    background-color: rgba(255, 255, 255, 0.7); /* Halbtransparenter weißer Hintergrund */
+    padding: 10px 20px; /* Abstand um den Text herum */
+    border-radius: 5px; /* Abgerundete Ecken */
+    margin: 10px;
+}
+
 h1 {
     font-size: 4rem; /* Größere Schriftgröße für den Titel */
     margin-bottom: 10px;
-    z-index: 2; /* Text bleibt sichtbar */
-    position: relative;
-    color: #000; /* Schriftfarbe schwarz */
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6); /* Leichter Schatten für bessere Lesbarkeit */
 }
 
 p {
-    font-size: 1.5rem; /* Größere Schriftgröße für den Text */
-    z-index: 2; /* Text bleibt sichtbar */
-    position: relative;
-    color: #000; /* Schriftfarbe schwarz */
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6); /* Leichter Schatten für bessere Lesbarkeit */
+    font-size: 1.5rem; /* Schriftgröße für den Untertitel */
 }
-
 
 nav ul {
     display: flex;
