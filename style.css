@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f5f1; /* Leichtes Beige */
-    color: #000; /* Dunkles Grau für Text */
+    color: #2c2c2c; /* Dunkles Grau für Text */
 }
 
 /* Header */
 header {
-    position: relative; /* Ermöglicht Positionierung des Textes und des Overlay */
+    position: relative;
     background-color: #c79d9d; /* Rosaton als Fallback für den Hintergrund */
     text-align: center;
     padding: 40px 20px;
@@ -17,23 +17,25 @@ header {
     background-size: cover; /* Bild wird auf die gesamte Fläche des Headers skaliert */
     background-position: center; /* Bild wird zentriert */
     height: 400px; /* Feste Höhe des Banners */
-    z-index: 0; /* Setzt den Z-Index des Banners */
+    color: #000; /* Schriftfarbe schwarz */
 }
 
 /* Text im Header */
 h1 {
     font-size: 4rem; /* Größere Schriftgröße für den Titel */
     margin-bottom: 10px;
-    z-index: 2; /* Text bleibt über dem Overlay */
-    position: relative; /* Sicherstellen, dass der Text über dem Overlay liegt */
-    color: black; /* Schriftfarbe schwarz */
+    z-index: 2; /* Text bleibt sichtbar */
+    position: relative;
+    color: #000; /* Schriftfarbe schwarz */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6); /* Leichter Schatten für bessere Lesbarkeit */
 }
 
 p {
     font-size: 1.5rem; /* Größere Schriftgröße für den Text */
-    z-index: 2; /* Text bleibt über dem Overlay */
+    z-index: 2; /* Text bleibt sichtbar */
     position: relative;
     color: #000; /* Schriftfarbe schwarz */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6); /* Leichter Schatten für bessere Lesbarkeit */
 }
 
 
