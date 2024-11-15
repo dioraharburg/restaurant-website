@@ -22,7 +22,7 @@ header {
 
 /* Text im Header mit Hintergrund */
 header h1, header p {
-    position: relative;
+    position: center;
     display: inline-block; /* Ermöglicht Padding und Hintergrund */
     background-color: rgba(255, 255, 255, 0.7); /* Halbtransparenter weißer Hintergrund */
     padding: 10px 20px; /* Abstand um den Text herum */
