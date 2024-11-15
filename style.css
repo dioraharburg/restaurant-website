@@ -26,7 +26,7 @@ h1 {
     margin-bottom: 10px;
     z-index: 2; /* Text bleibt über dem Overlay */
     position: relative; /* Sicherstellen, dass der Text über dem Overlay liegt */
-    color: #000; /* Schriftfarbe schwarz */
+    color: black; /* Schriftfarbe schwarz */
 }
 
 p {
